@@ -100,10 +100,14 @@ def eihwam(transcript_lines):
     for i in range(len(total_weightings)):
         numerator += total_weightings[i] * total_credits[i] * total_marks[i]
         denominator += total_weightings[i] * total_credits[i]
+    
+    if denominator == 0:
+        return "First year subjects do not count for Engineering honours"
 
     return round_half_up(numerator / denominator, 1)
 
 
-# print_transcript(transcript_lines=transcript_lines)
+print_transcript(transcript_lines=transcript_lines)
+print("")
 print("EIHWAM:", eihwam(transcript_lines=transcript_lines))
 print("WAM", wam(transcript_lines=transcript_lines))
