@@ -1,0 +1,7 @@
+ Year Session Unit of study code Unit of study name Mark Grade Credit points
+ 2022 S1C BUSS1030 Accounting, Business and Society 71.0 CR 6
+ 2022 S1C ELEC1005 Introduction to Software Engineering 79.0 DI 6
+ 2022 S1C ENGP1001 Professional Engagement Program 1A SR 0
+ 2022 S1C INFO1110 Introduction to Programming 86.0 HD 6
+ 2022 S1C MATH1002 Linear Algebra 78.0 DI 3
+ 2022 S1C MATH1021 Calculus Of One Variable 72.0 CR 3
